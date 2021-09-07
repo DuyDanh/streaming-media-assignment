@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "steaming media assignment IGME 430",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuyDanh/streaming-media-assignment.git"
+  },
+  "author": "Duy Danh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DuyDanh/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/DuyDanh/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
